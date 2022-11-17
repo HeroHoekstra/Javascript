@@ -1,0 +1,113 @@
+1. Wat is het verschil tussen “type conversion” en “type coercion”?
+type coercion is impliciet, terwijl type conversion impliciet of expliciet kan zijn.
+
+
+2. Welke functie gebruik je om van een “String” een “number” te maken?
+parseInt(String);
+
+3. Welke functie gebruik je om van een “number” een “String” te maken?
+String(a);
+
+4. Wat verschijnt er in de console?
+43
+
+5. Wat verschijnt er in de console?
+-12
+
+6. Wat verschijnt er in de console?
+2512
+
+7. Wat verschijnt er in de console?
+37
+
+8. Wat verschijnt er in de console?
+5512
+
+9. Wat verschijnt er in de console?
+22
+
+10. Wat verschijnt er in de console?
+5512
+
+11. Wat zijn “falsy values”?
+Als er niks is
+
+12. Wat zijn “thruty values”?
+als het true is
+
+13. Wat verschijnt er in de console?
+Niet waar!
+
+14. Wat verschijnt er in de console?
+Niet waar!
+
+15. Wat verschijnt er in de console?
+Niet waar!
+
+16. Wat verschijnt er in de console?
+Niet waar!
+
+17. Wat verschijnt er in de console?
+Niet waar!
+
+18. Wat verschijnt er in de console?
+Waar
+
+19. Wat verschijnt er in de console?
+Niet waar
+
+20. Wat verschijnt er in de console?
+Niet waar!
+
+21. Wat verschijnt er in de console?
+Waar
+
+22. Wat is het verschil tussen “==” en “===”?
+== checked of het waar is en === checked of de waarde tussen variabele
+
+23. Wat verschijnt er in de console?
+Ok...
+
+24. Wat verschijnt er in de console?
+Het Begin van het begin
+
+25. Wat verschijnt er in de console?
+Het Begin van het begin
+
+26. Het regent en de zon schijnt. Ik ga patat halen als de zon schijnt. Ga ik patat halen?
+Ja
+27. Het regent en de zon schijnt. Ik ga patat halen als de zon schijnt en het regent. Ga ik patat halen?
+Ja
+
+28. Het regent en de zon schijnt. Ik ga patat halen als de zon schijnt of als het regent. Ga ik patat halen?
+Ja
+29. Het regent en de zon schijnt. Ik ga patat halen als het regent of als het sneeuwt. Ga ik patat halen?
+Ja
+
+30. Het regent en de zon schijnt. Ik ga patat halen als het regent en het sneeuwt. Ga ik patat halen?
+Nee
+
+31. Wat betekent het uitroepteken in Javascript (“!”)? Geef een voorbeeld van het gebruik van het uitroepteken in Javascript.
+Als het niet zo is
+
+
+32. Wat verschijnt er in de console?
+true
+
+33. Wat verschijnt er in de console?
+true
+
+34. Wat verschijnt er in de console?
+true
+
+35. Wat verschijnt er in de console?
+You do something you like, probably in the public sector
+
+36. Wat verschijnt er in de console?
+You do something you like, probably in the public sector
+
+37. Wat verschijnt er in de console?
+I want JUNKFOOD
+
+38. Onderstaande code is syntactische correct, maar waarom is het toch ongewenste code?
+Omdat het niet cool genoeg is

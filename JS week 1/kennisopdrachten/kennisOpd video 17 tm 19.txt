@@ -1,0 +1,28 @@
+1. Wat is een “String”?
+Een zin
+
+2. Met welke operator kan je strings concateneren?
+const string = "Hello" + " " + "World";
+string;
+
+
+3. Wat verschijnt er in de console?
+Jorn is stupid
+
+4. Wat verschijnt er in de console?
+Jorn is briljant
+
+5. Wat verschijnt er in de console?
+Hello Jorn
+
+6. Wat is de fout in onderstaande code?
+"I"m " + firstname |moet worden| "I'm " + firstname;
+
+7. Van welk datatype is het resultaat van de conditie in een if-else-statement?
+boolean
+
+8. Wat is een “control structure” in Javascript?
+laat het programma een stuk code verandere
+
+9. Waarom is een “if-else-statement” een “control structure”?
+Omdat het checked wanneer het iets moet doen
