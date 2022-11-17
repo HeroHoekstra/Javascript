@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 1. Wat is een “switch statement”? Waarvoor gebruik je een “switch statement”?
 Een coolere versie van een if statement
 
@@ -51,4 +52,59 @@ console.log(func(true));
 
 console.log(func(false));
 
+=======
+1. Wat is een “switch statement”? Waarvoor gebruik je een “switch statement”?
+Een coolere versie van een if statement
+
+2. Wat betekent “hard coded values” in programmeren?
+Iets dat niet verandert kan worden met een ander stuk code of terwijl het programma runt
+
+3. Waarom is de “break” in een “switch statement” zo belangrijk? Geef een codevoorbeeld bij je uitleg.
+anders stopt het niet bij die statement en doet het alles als 1
+
+4. Wat verschijnt er in de console?
+Konijn
+
+5. Wat verschijnt er in de console?
+Vos
+
+6. Wat verschijnt er in de console?
+
+
+7. Wat verschijnt er in de console?
+Konijn!
+Koe!
+Vos!
+
+8. Wat verschijnt er in de console?
+Konijn!
+Koe!
+Vos!
+
+9. Wat verschijnt er in de console?
+Vos!
+
+10. Wat verschijnt er in de console?
+Vos!
+
+11. Wat verschijnt er in de console?
+Konijn!
+
+12. Wat verschijnt er in de console?
+Vos!
+
+13. Wat is het verschil tussen een “statement” en een “expression”?
+Een expresion maakt een waarde en een statement niet
+
+14. Waarvoor is de “ternary operator”? Geef een codevoorbeeld in je uitleg.
+iets dat true of false geeft
+function func(a) {
+  return (a ? '$2.00' : '$10.00');
+}
+
+console.log(func(true));
+
+console.log(func(false));
+
+>>>>>>> Stashed changes
 console.log(func(null));

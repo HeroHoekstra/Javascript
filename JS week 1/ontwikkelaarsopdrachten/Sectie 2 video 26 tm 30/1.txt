@@ -1,0 +1,4 @@
+De console print "Great!" omdat de functie checkt of age meer of gelijk is aan 18.
+En birthYear 88 in de naam value heeft.
+getResult returned true en true
+En de switch case checked of getResult true en true is en dan print het "Great!"

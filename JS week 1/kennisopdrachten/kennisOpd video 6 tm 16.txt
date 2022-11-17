@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 1. Wat is Javascript?
 Javascript is een programmeer taal voor websites
 
@@ -129,4 +130,137 @@ console.log(a = b = 5);
 1
 
 40. Welke operator wordt eerst uitgevoerd “conditional” of “assignment”?
+=======
+1. Wat is Javascript?
+Javascript is een programmeer taal voor websites
+
+2. Waar gebruik je Javascript voor?
+Back-end en front-end
+
+3. Wat betekent de zin “Javascript is a high-level programming language”?
+Dat het veel kan
+
+4. Wat is een webapplicatie?
+Een applicatie op een website
+
+5. Wat is de grootste update in Javascript en luidde het begin in van “Modern Javascript”?
+De update die het veiliger maakte
+
+6. Hoe voeg je een Javascript-file toe aan je HTML-file?
+<script src="file.js"> </script>
+
+7. Wat is een “value”?
+Een nummer waarde
+
+8. Wat is een variabele?
+Een waarde
+
+9. Wat is een variabelenaam?
+Een naam voor de waarde
+
+10. Beantwoord de vragen 7, 8 en 9 middels een tekening waarin “value”, variabele en variabelenaam aangegeven worden.
+video 6 tm 16 opd10.jpg
+
+11. Wat is een conventie? Wat betekent dat? Wat betekent het voor programmeren in het algemeen en Javascript in het bijzonder?
+Een variabele, in javascript is het makkelijker dan in andere talen
+
+12. Wat is de juiste naamgeving voor de variabele?
+a. prachtigLeven
+
+13. Welke naamgeving voor de variabele is niet syntactische correct?
+c. 3hello
+
+14. Wat is een syntactische fout?
+Een typefout
+
+15. Wat is een semantische fout?
+Ale je een verkeerde naam geeft
+
+16. Leg het verschil uit tussen een syntactische en een semantische fout.
+Bij een syntactische fout werkt je code niet en bij een semantische fout ben je stom
+
+17. Wat is een datatype? Geef twee voorbeelden van een datatype en leg uit wat deze zijn.
+Stings en nummers
+
+18. Waarvoor gebruik je commentaar in je code? Noem drie voorbeelden met uitleg.
+Zodat je morgen weet wat het doeet
+Zodat je weet wat je nog moet doen
+Vertellen aan andere die je code lezen wat het doet
+
+19. Leg het verschil uit tussen console.log(“herder”) en console.log(herder).
+console.log("herder") print herder en console.log(herder) print de variabele herder
+
+20. Wat is een “legacy problem”?
+een probleem uit het verleden dat nog moet worden aangepakt.
+
+21. Combineer de letters met de juiste cijfers.
+1 > b
+2 > c
+3 > a
+
+22. Is “const alfa;” legaal in Javascript? Waarom?
+Nee, omdat het geen value heeft
+
+23. Is “let beta;” legaal in Javascript? Waarom?
+Ja, want het kan nog veranderen tijdens runtime
+
+24. Wat is een operator?
+iets als +
+
+25. Wat is het verschil tussen “=” en “==”?
+= zegt wat het moet zijn en == kijkt of het gelijk is aan
+
+26. Wat verschijnt er in de console?
+20
+
+27. Wat verschijnt er in de console?
+75
+
+28. Wat verschijnt er in de console?
+false
+
+29. Wat verschijnt er in de console?
+-10
+
+30. Wat verschijnt er in de console?
+false
+
+31. Wat verschijnt er in de console?
+false
+
+32. Wat verschijnt er in de console?
+true
+
+33. Wat verschijnt er in de console?
+-10
+
+34. Wat verschijnt er in de console?
+5
+
+35. Wat verschijnt er in de console?
+75
+
+36. Wat verschijnt er in de console?
+6
+
+37. Wat is “operator precedence”? Geef een voorbeeld met code waarbij je “precedence” in actie ziet.
+Prioriteit in de code
+console.log(3 + 4 * 5);
+
+console.log(4 * 3 ** 2);
+
+let a;
+let b;
+
+console.log(a = b = 5);
+
+
+38. Wat is de “operator precedence” van “Addition”?
+7
+
+39. Wat is de “operator precedence” van “void”?
+1
+
+40. Welke operator wordt eerst uitgevoerd “conditional” of “assignment”?
+>>>>>>> Stashed changes
 conditional
