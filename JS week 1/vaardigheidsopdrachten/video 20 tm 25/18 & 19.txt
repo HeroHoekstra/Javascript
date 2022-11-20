@@ -1,0 +1,7 @@
+//Maaike studeert softwaredevelopment en wil studiefinanciering aanvragen.
+18. Heeft zij volgens je code recht op studiefinanciering? Is deze werking van jouw code correct of niet? Beargumenteer je antwoord.
+Nee want ze is nog niet 18 dus dan krijgt ze niks
+
+//Maaike is vandaag achttien jaar geworden.
+19. Heeft zij vlgens je code recht op studiefinanciering?
+Ja, omdat er in mijn code is gelijk of meer dan 18

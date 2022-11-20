@@ -1,0 +1,72 @@
+Alle opdrachten waar ./js/opdracht nummer.js bij staat zitten in de js folder
+
+1. Maak een variabele voor je huidige school, vorige school en hoogst behaalde diploma. Geef de variabelen de juiste waarden. Laat alle drie de waarden zien in de console.
+./js/1.js
+
+2. Maak een variabele genaamd “age” en geef de variabele jouw leeftijd als waarde. Log de variabele naar de console.
+./js/2.js
+
+3. Welk datatype is er te zien in de onderstaande code?
+String
+
+4. Welk datatype is er te zien in de onderstaande code?
+int
+
+5. Welk datatype is er te zien in de onderstaande code?
+String
+
+6. Welk datatype is er te zien in de onderstaande code?
+Boolean
+
+7. Welk datatype is er te zien in de onderstaande code?
+String
+
+8. Welk datatype is er te zien in de onderstaande code?
+String
+
+9. Schrijf commentaar bij de volgende code.
+//eerste en laatste naam
+
+10. Gebruik een functie om te achterhalen wat het datatype van de volgende code is.
+console.log(typeof rabbit);
+
+11. Bereken je eigen leeftijd en stop het antwoord in de variabele genaamd “myAge”;
+let myAge = 2022 - 2006;
+
+12. Log de variabele “myAge” naar de console.
+console.log(myAge)
+
+13. Log het dubbele van (de waarde van) de variabele “myAge” naar de console.
+console.log(myAge * 2);
+
+14. Log het antwoord van twee tot de macht acht naar de console.
+console.log(2 ** 8);
+
+15. Maak een variabele genaamd “street” en de variabele genaamd “number”. Voeg aan de variabelen je straat en huisnummer toe. Log je straat en huisnummer naar de console (zie een voorbeeld hieronder).
+./js/15.js
+
+16. Maak een variabele genaamd “numberOne” en geef de variabele de waarde 12. Tel bij de variabele 15 op en log het resultaat naar de console. Doe het optellen op twee verschillende manieren.
+./js/16.js
+
+17. Maak een variabele genaamd “numberOne” en geef de variabele de waarde 12. Vermenigvuldig de variabele met 15 en log het resultaat naar de console. Doe het vermenigvuldigen op twee verschillende manieren.
+./js/16.js
+
+18. Maak een variabele genaamd “numberOne” en geef de variabele de waarde 12. Tel bij de variabele 1 op en log het resultaat naar de console. Doe het optellen op drie verschillende manieren.
+./js/18.js
+
+19. Maak een variabele genaamd “numberOne” en geef de variabele de waarde 12. Trek bij de variabele 1 af en log het resultaat naar de console. Doe het aftrekken op drie verschillende manieren.
+./js/19.js
+
+20. Bereken de verwachtte lengte van een kind van het mannelijke geslacht wiens ouders 183 centimeter (vader) en 178 centimeter (moeder) lang zijn. De verwachtte lengte van een kind
+bereken je door drie keer de lengte van de ouder met hetzelfde geslacht als het kind te nemen en één keer de lengte van de ouder van het andere geslacht. Dit deel je door vier.
+./js/20.js
+
+
+21. Bereken de verwachtte lengte van een kind van het vrouwelijke geslacht wiens ouders 192 centimeter (vader) en 153 centimeter (moeder) lang zijn.
+./js/21.js
+
+22. Bereken de lengte van iemand die een BMI heeft van 28.6 en een gewicht van 93 kilo.
+./js/22.js
+
+23. Bereken het gewicht van iemand die een BMI heeft van 28.6 en een lengte van 188 centimeter.
+./js/23.js
