@@ -1,0 +1,123 @@
+1. Waar is een “for loop” bij uitstek geschikt voor? Geef een voorbeeld uit jouw leven waarvoor een “for loop” handig zou zijn.
+Om veel dezelfde dingen te doen in weinig zinnen code.
+
+2. Benoem de onderdelen a tot en met f. Beschrijf ook wat ieder onderdeel doet.
+a : for loop
+b : decleration
+c : een int met de naam i
+d : check of het minder of gelijk is aan
+e : voeg 1 aan i toe
+f : for loop body
+
+3. Wat verschijnt er in de console?
+0
+1
+2
+3
+
+4. Wat verschijnt er in de console?
+0
+0
+1
+2
+2
+4
+3
+6
+
+5. Wat verschijnt er in de console?
+0
+2
+4
+
+6. Wat verschijnt er in de console?
+0
+2
+4
+
+7. Wat verschijnt er in de console?
+2
+3
+
+8. Wat verschijnt er in de console?
+2
+1
+0
+
+9. Wat verschijnt er in de console?
+0
+3
+6
+9
+12
+
+
+10. Wat verschijnt er in de console?
+Koe
+Herder
+
+11. Wat verschijnt er in de console?
+Koe
+Herder
+undefined
+undefined
+undefined
+
+13. Wat doet “continue” in een loop? Geef een codevoorbeeld bij je antwoord.
+Het doet het nog een keer
+
+14. Wat doet “break” in een loop? Geef een codevoorbeeld bij je antwoord.
+Het stopt de for loop
+
+15. Wat is het verschil tussen een “for-loop” en een “while-loop”?
+a. Wanneer gebruik je de “while-loop” en niet de “for-loop”?
+een for loop heeft een ding dat zegt hoelag het moet door gaan en een while loop heeft een andere variabele nodig
+een for loop gebruik je als je aantal nodig heb dat je weet en een while loop wanneer je door moet gaan tot er iets gebeurt
+
+16. Wat verschijnt er in de console?
+Let's start part 1!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+Let's start part 2!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+Let's start part 3!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+17. Wat verschijnt er in de console?
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+18. Wat verschijnt er in de console?
+Ik tel tot 10
+Ik tel tot 9
+Ik tel tot 8
+Ik tel tot 7
+Ik tel tot 6
+Ik tel tot 5
+Ik tel tot 4
+Ik tel tot 3
+Ik tel tot 2
+Ik tel tot 1
+Ik tel tot 0

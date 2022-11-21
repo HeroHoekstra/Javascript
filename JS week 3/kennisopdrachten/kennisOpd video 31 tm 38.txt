@@ -1,0 +1,135 @@
+1. Wat is “strict mode” in Javascript?
+Een mode die sommige functies weg haald maar voor betere performance
+
+2. Waar in je script moet je “strict mode” activeren?
+In de js file en in functies
+
+3. Waarom zou je “strict mode” in Javascript activeren?
+Maakt het makkelijker om veilige javascript te schrijven
+
+4. Wat is een functie?
+Een stuk code (soms) met prarameters die je later can callen
+
+5. Wat is het verschil tussen een variabele en een functie?
+Een variabele heeft data en een functie kan iets met die data
+
+6. Wat is de “function body”? Geef een codevoorbeeld bij je uitleg.
+Alles in de function
+    bijv:
+        function func(a, b) {
+            //fnction body
+            let c = a + b;
+            return c;
+        }
+
+7. Kies de juiste beschrijving bij het nummer.
+a : 6
+b : 1
+c : 2
+d : 3, 4
+e : 5
+
+8. Wat verschijnt er in de console?
+niks
+
+9. Wat verschijnt er in de console?
+Cheese
+
+10. Wat verschijnt er in de console?
+Cheese 
+Cheese
+
+11. Wat verschijnt er in de console?
+Je krijgt 3 knuffels van mij <3
+
+12. Wat verschijnt er in de console?
+Je krijgt 12 knuffels van mij <3
+
+13. Wat verschijnt er in de console?
+Je krijgt 1 kunffel van mij <3
+
+14. Wat verschijnt er in de console?
+Je krijgt 12 knuffels van mij <3
+
+15. Wat verschijnt er in de console?
+Je krijgt 12 knuffels van mij <3
+extra kunffel
+
+16. Wat verschijnt er in de console?
+Je krijgt 12 knuffels van mij <3
+
+17. Wat verschijnt er in de console?
+niks
+
+18. Wat verschijnt er in de console?
+4
+
+19. Wat verschijnt er in de console?
+4
+4
+
+20. Wat verschijnt er in de console?
+8
+
+21. Wat verschijnt er in de console?
+20
+
+22. Wanner produceert een functie een resultaat?
+Als je return neer zet
+
+23. Wat verschijnt er in de console?
+niks
+
+24. Wat is het verschil tussen een “function declaration” en “function expression”? Geef in je uitleg een codevoorbeeld.
+Function declration is een apparte function en een function expression zit in een variabele
+function declaration :
+function func(a, b) {//function}
+const a = function(a, b) {//function}
+
+25. Wat is het verschil tussen een parameter en een argument? Geef in je uitleg een codevoorbeeld.
+parameter is een ding dat in de function() zit en een argument can een specifieke parameter gebruiken zonder de naam te gebruiken
+
+26. Wat is een “arrow function”?
+Een pijlfunctie-uitdrukking is een compact alternatief voor een traditionele functie-uitdrukking, met enkele semantische verschillen en opzettelijke beperkingen in het gebruik
+
+27. Waarom het een “arrow function” een “arrow function”?
+omdat het gebruik maakt van =>
+
+28. Wat is het verschil tussen een “arrow function” en een “function declaration”?
+een arrow function can je alleen callen
+
+29. Wat verschijnt er in het console?
+5
+
+30. Wat verschijnt er in het console?
+8
+
+31. Wat verschijnt er in het console?
+44
+
+32. Wat verschijnt er in het console?
+Henk works as a Teacher and Henk is very happy
+
+33. Wat verschijnt er in het console?
+Frits works as a Developer and Frits is very happy
+
+34. Wat verschijnt er in het console?
+Henk works aas a Teacher and Henk is very
+
+35. Wat is het “Don’t repeat yourself”-principe? Geef een codevoorbeeld bij je antwoord.
+Niet jezelf herhalen want er is waarschijnlijk een manier om het beter te doen bijv:
+//check if can be devided by 3
+if (3 % 0 == 0) {//thing}
+if (3 % 0 == 1) {//thing}
+if (3 % 0 == 2) {//thing}
+if (3 % 0 == 3) {//thing}
+etc.
+
+to:
+for (let i = 0; i < amountOfNumbers; i++) {if (i % 3 == 0) {//thing}}
+
+36. Wat doet de “return”-keyword?
+return een value naar de variabele die de functie heeft gedaan
+
+37. Waarom is deze functie zinloos?
+Omdat het niks returned

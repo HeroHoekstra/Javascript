@@ -1,0 +1,81 @@
+1. Wat is een datastructuur?
+formaten in Javascript die helpen om op efficiëntere manieren toegang te krijgen tot de gegevens en indien nodig wijzigingen aan te brengen
+
+2. Wat is een array?
+Meer dan 1 van de zelfde data type in 1 variabele
+
+3. Wat is het voordeel van een array?
+Je hoeft niet veel van dezelfde dingen neer te zetten
+
+4. Wat is een element in onderstaande array?
+String
+
+5. Welke code is niet geldig? Leg uit waarom.
+a. Omdat er niet word aangegeven hoe groot de array is en welke soort het is
+
+6. Wat verschijnt er in het console?
+niks
+
+7. Wat verschijnt er in het console?
+2
+3
+
+8. Wat verschijnt er in het console?
+2
+9
+
+9. Wat verschijnt er in het console?
+2
+5, 7, 10
+9
+
+10. Wat verschijnt er in het console?
+undefined
+
+11. Als een functie een “return value” heeft, moet je er dan iets mee doen? Leg je antwoord uit.
+Ja anders returned het niks
+
+12. Wat verschijnt er in het console?
+[4, 1, 2, 3]
+
+13. Wat verschijnt er in het console?
+5
+
+14. Wat verschijnt er in het console?
+3
+
+15. Wat verschijnt er in het console?
+8
+
+16. Wat verschijnt er in het console?
+dat friendOne niet bestaat
+
+17. Wat verschijnt er in de console?
+["Henk", "Frits", "Kees"]
+
+18. Wat verschijnt er in de console?
+4
+nan
+
+19. Wat verschijnt er in de console?
+4
+7
+
+20. Wat verschijnt er in de console?
+0
+1
+
+21. Wat verschijnt er in de console?
+true
+true
+
+22. Wat verschijnt er in de console?
+false
+false
+
+23. Wat verschijnt er in de console?
+-2
+
+24. Wat verschijnt er in de console?
+Great!
+true

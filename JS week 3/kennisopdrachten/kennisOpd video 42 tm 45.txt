@@ -1,0 +1,58 @@
+1. Wat maakt een ‘object’ anders dan een ‘array’? Geef in je uitleg een codevoorbeeld.
+Het is niet meerdere variabele maar het is 1 variabele die je in een array zou kunnen zetten
+
+2. Wat is een ‘key’?
+Een array met de namen van de object
+
+3. Wat is een ‘value’?
+Een waarde
+
+4. Wat is een ‘key-value pair’?
+Waarde van en ding in de object
+
+5. Wat is een “property”?
+naam van een object ding
+
+6. Benoem de onderdelen a tot en met e.
+a : variabele naam
+b : key naam
+c : key value
+d : object variabele
+e : object body
+
+7. Wanneer gebruik je de “bracket notation” en wanneer gebruik je de “dot notation” voor het verkrijgen van een “object property”?
+je kan variabele gebruiken in een bracket notation
+
+8. Wat verschijnt er in de console?
+Henk Henk
+
+9. Wat verschijnt er in de console?
+de Vries
+
+10. Wat verschijnt er in de console?
+undefined
+
+11. Wat verschijnt er in de console?
+undefined
+
+12. Wat verschijnt er in de console?
+Hello
+
+13. Wat verschijnt er in de console?
+true
+
+14. Wat verschijnt er in de console?
+Henk de Vries
+
+15. Wat verschijnt er in de console?
+f getFullName()
+
+16. Wat verschijnt er in de console?
+Henk de Vries
+
+17. Wat verschijnt er in de console?
+22
+
+18. Wat verschijnt er in de console?
+22
+22

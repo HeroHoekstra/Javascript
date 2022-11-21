@@ -1,0 +1,2 @@
+1. Waarom werkt de code die iets naar de console logt?
+de console zegt gewoon 2?
