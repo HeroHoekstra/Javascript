@@ -1,0 +1,8 @@
+23. Wat verschijnt er in de console? Verklaar het resultaat en pas de code aan zodat het wel werkt.
+Let's start part 1!
+0
+1
+2
+3
+4
+Omdat de while loop er ook nog 5 aan toevoeg en dan is i  meer dan 5

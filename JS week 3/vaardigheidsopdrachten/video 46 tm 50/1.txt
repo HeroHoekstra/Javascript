@@ -1,0 +1,2 @@
+1. Schrijf iedere stap die de genomen wordt in de code uit.
+in de for loop maakt het een let aan genaamt i en checkt of i minder of gelijk is aan 3 en dan voegt het 1 aan i toe en schrijft in de console de waarde van i

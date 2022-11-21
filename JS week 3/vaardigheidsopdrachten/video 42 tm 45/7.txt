@@ -1,0 +1,2 @@
+7. Wat is er semantisch niet correct aan onderstaande code?
+getAge kan age heten

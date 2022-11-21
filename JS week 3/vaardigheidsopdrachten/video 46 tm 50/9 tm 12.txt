@@ -1,0 +1,11 @@
+9. Wat is het probleem in deze loop?
+Het is altijd true dus het zal nooit stoppen
+
+10. Wat is het probleem in deze loop?
+i is als meer dan 10 dus het doet niks
+
+11. Wat is het probleem in deze loop?
+het voegt niks aan i toe dus het zal voor altijd doogaan
+
+12. Wat is het probleem in deze loop?
+Er gebeurt niks omdat er niks in staat

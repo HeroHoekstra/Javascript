@@ -1,0 +1,2 @@
+10. Wat verschijnt er in de console?
+The name is Frits and I 'amokish and my salary is 3000 and it just got doubled!
