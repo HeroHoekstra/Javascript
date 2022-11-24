@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Document</title>
+
+        <style>
+            div > div {
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+            }
+
+            #klik {
+                background-color: pink;
+            }
+
+            #number {
+                background-color: cornflowerblue;
+            }
+
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div id="klik">KLIK</div>
+            <div id="number"> </div>
+        </div>
+        
+        <script>
+            document.getElementById('number').innerHTML = '<img src=\'./thom.jpg\'>';
+            
+            document.getElementById('klik').onclick = function() {               
+                if (Math.floor(Math.random() * 2) === 0) {
+                    document.getElementById('number').innerHTML = '<img src=\'./thom.jpg\'>';
+                } else {
+                    document.getElementById('number').innerHTML = '<img src=\'./thoms.jpg\'>';
+                }
+            }
+        </script>
+    </body>
+</html>

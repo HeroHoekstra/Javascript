@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="grid-container_item grid-container_item-a">
+                A
+            </div>
+            <div class="grid-container_item grid-container_item-b">
+                B
+            </div>
+            <div class="grid-container_item grid-container_item-c">
+                C
+            </div>
+        </div>
+
+        <script>
+            const items = document.querySelectorAll('.grid-container_item');
+
+            items.forEach(item => {
+                item.onclick = function() {
+                    console.log('Geklikt');
+                }
+            });
+        </script>
+    </body>
+</html>

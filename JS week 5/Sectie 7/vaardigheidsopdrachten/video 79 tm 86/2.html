@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="grid-container_item grid-container_item-a">A</div>
+        
+        <script>
+            const item1 = document.querySelector('.grid-container_item-a');
+            item1.style.backgroundColor = 'pink';
+
+            const width = 200;
+            item1.style.width = `${width}px`
+
+            item1.onclick = function() {
+                item1.style.width = `${width * 2}px`;
+            }
+        </script>
+    </body>
+</html>

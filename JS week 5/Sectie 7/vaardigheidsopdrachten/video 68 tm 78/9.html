@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="grid-container_item grid-container_item-1">A</div>
+            <div class="grid-container_item grid-container_item-2">B</div>
+            <div class="grid-container_item grid-container_item-3">C</div>
+            <div class="grid-container_item grid-container_item-4">D</div>
+            <div class="grid-container_item grid-container_item-5">E</div>
+            <div class="grid-container_item grid-container_item-6">F</div>
+            <div class="grid-container_item grid-container_item-7">G</div>
+        </div>
+
+        <script>
+            document.querySelector('.grid-container').style.textAlign = 'center';
+
+            function getGridItem(value) {
+                return document.querySelector(`.grid-container_item-${value}`);
+            }
+
+            getGridItem(1).style.backgroundColor = 'red';
+            getGridItem(2).style.backgroundColor = 'blue';
+            getGridItem(3).style.backgroundColor = 'green';
+            getGridItem(4).style.backgroundColor = 'purple';
+            getGridItem(5).style.backgroundColor = 'brown';
+            getGridItem(6).style.backgroundColor = 'pink';
+            getGridItem(7).style.backgroundColor = 'yellow';
+
+            for (let i = 0; i < 7; i++) {
+                getGridItem(i + 1).innerText = `Konijntje ${i}`;
+            }
+        </script>
+    </body>
+</html>

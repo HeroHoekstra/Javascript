@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Document</title>
+
+        <style>
+            div > div {
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+            }
+
+            #klik {
+                background-color: pink;
+            }
+
+            #number {
+                background-color: cornflowerblue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div id="klik">KLIK</div>
+            <div id="number">0</div>
+        </div>
+        
+        <script>
+            let timesClicked = 0;
+            document.getElementById('klik').onclick = function() {               
+                timesClicked++;
+
+                document.getElementById('number').innerText = timesClicked * timesClicked;
+            }
+        </script>
+    </body>
+</html>
