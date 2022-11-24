@@ -1,0 +1,2 @@
+1. Wat is het verschil tussen ‘innerHTML’ en ‘textContent’ en ‘innerText’?
+innerHTML is alles textContent is alle text in een element en innetText is alle text in een element en de children

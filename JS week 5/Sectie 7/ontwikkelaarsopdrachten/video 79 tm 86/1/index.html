@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./style.css" rel="stylesheet">
+
+        <title>Wiskunde Spel</title>
+    </head>
+
+    <body>    
+        <div id="modal">
+            <div>
+                <p>Goed gedaan!</p>
+                <p id="goed"> </p>
+                <p id="fouten"> </p>
+                <p id="time"> </p>
+            </div>
+        </div>
+
+        <main>    
+            <div id="score"> </div>
+
+            <span id="num1" class="numbers"> </span>
+            <span id="thing"> </span>
+            <span id="num2" class="numbers"> </span>
+
+            <div id="answer">
+                <input type="text" id="userAnswer">
+                <button id="submit" onclick="getInput()">Submit</button>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

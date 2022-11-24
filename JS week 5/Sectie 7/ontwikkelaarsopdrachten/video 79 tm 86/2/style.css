@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+    row-gap: 50px;
+
+    height: 80%;
+    padding: 30px;
+}
+
+/*Thing*/
+#target {
+    height: 100px;
+    line-height: 100px;
+}
+
+/*Nums*/
+#nums {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 75px);
+    grid-template-areas: 
+        "num1 num1 num1 num2 num3"
+        "num1 num1 num1 num4 num3"
+        "num1 num1 num1 num4 num3"
+        "num5 num6 num6 num6 num7"
+        "num8 num8 num8 num8 num7";
+}
+
+#nums > p {
+    margin: 0;
+}
+
+#num0 {
+    grid-area: num1;
+    background-color: purple;
+    line-height: 225px;
+}
+#num1 {
+    grid-area: num2;
+    background-color: violet;
+    line-height: 75px;
+}
+#num2 {
+    grid-area: num3;
+    background-color: aquamarine;
+    line-height: 225px;
+}
+#num3 {
+    grid-area: num4;
+    background-color: indianred;
+    line-height: 150px;
+}
+#num4 {
+    grid-area: num5;
+    background-color: lightseagreen;
+    line-height: 75px;
+}
+#num5 {
+    grid-area: num6;
+    background-color: pink;
+    line-height: 75px;
+}
+#num6 {
+    grid-area: num7;
+    background-color: burlywood;
+    line-height: 150px;
+}
+#num7 {
+    grid-area: num8;
+    background-color: limegreen;
+    line-height: 75px;
+}
+
+@keyframes correct {
+    50% {
+        scale: 1.04;
+        background-color: green;
+    }
+}
+
+@keyframes incorrect {
+    50% {
+        scale: 1.04;
+        background-color: red;
+    }
+}

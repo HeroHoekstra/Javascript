@@ -1,0 +1,48 @@
+1. Wat is de “DOM”?
+Document Object Model
+
+2. Wat is “DOM manipulation”?
+wanneer u JavaScript gebruikt om elementen van een website toe te voegen, te verwijderen en te wijzigen
+
+3. Wanneer wordt de “DOM” gegenereerd?
+Telkens wanneer een HTML-element wordt gevonden
+
+4. De “DOM” is onderdeel van de WEB API’s. Wat wordt daarmee bedoeld?
+Nou gewoon
+
+5. Wat doet de ‘querySelector’?
+geeft het eerste element in het document terug dat overeenkomt met de opgegeven selector of groep selectors
+
+6. Wat is het verschil tussen de ‘querySelector’ en de “querySelectorAll”?
+queryselector geeft 1 object terug en all geeft lles
+
+7. Wat verschijnt er in de console?
+A7
+
+8. Wat verschijnt er in de console?
+A6 is een prachtige snelweg
+
+9. Wat verschijnt er in de console?
+g.textContent is een prachtige snelweg
+
+10. Wat verschijnt er in de console?
+A6 is not defined
+
+11. Wat verschijnt er in de console?
+A6 A6
+
+12. Wat verschijnt er in de console?
+A6 A6 A3
+
+13. Wat is een “event”? Geef twee voorbeelden van een “event”?
+Als er iets gebeurt
+als de gebruiker iets intypt
+als de gebruiker klikt
+
+14. Hoe voeg je een “event” toe aan een HTML-element? Geef een codevoorbeeld bij je uitleg.
+document.getElementById("myBtn").addEventListener("click", displayDate);
+het krijgt het id dan voegt het een listener toe en als er op geklikt wordt doet het iets
+
+15. Hoe kan je de stijl van een HTML-element veranderen met Javascript? Geef een codevoorbeeld in je antwoord.
+document.getElementById("p2").style.color = "blue";
+pakt het id dan past het de kleur aan

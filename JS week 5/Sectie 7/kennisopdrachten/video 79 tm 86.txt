@@ -1,0 +1,23 @@
+1. Wat is een modal?
+een ding over de website dat kan verschijnen
+
+2. Wat zijn “global events”?
+stelt u in staat om aangepaste code uit te voeren wanneer er specifieke acties plaatsvinden binnen het systeem
+
+3. Geef een voorbeeld van een “global event”.
+Als de gebruiker klikt
+
+4. Leg onderstaande code uit.
+checkt of er een knop wordt ingedrukt en logt event();
+
+5. Leg onderstaande code uit.
+checkt of de keycode 27 is en of de modal open staat
+
+a. Refactor de code.
+
+document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 27 && !modalElement.classList.contains('hidden')) openAndCloseModal();
+});
+
+6. Wat is een “event object”? Geef in je uitleg een voorbeeld van een toepassing van het “event object”.
+MousEvent

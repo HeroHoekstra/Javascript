@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    text-align: center;
+    line-height: 200px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#score {
+    background-color: pink;
+    grid-area: score;
+}
+.numbers {background-color: violet;}
+#thing {
+    background-color: lightcoral;
+    grid-area: thing;
+}
+#answer {
+    background-color: purple;
+    grid-area: answer;
+}
+
+#num1{grid-area: num1;}
+#num2{grid-area: num2;}
+
+#answer > input, #answer > button {
+    height: 30%;
+    width: 30%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "score score score"
+        "num1 thing num2"
+        "answer answer answer";
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+#modal > div {
+    margin: 30px;
+    padding: 10px;
+    background-color: violet;
+    font-size: large;
+    line-height: 30px;
+}
