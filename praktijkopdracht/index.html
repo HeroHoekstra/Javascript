@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./style.css" rel="stylesheet">
+
+        <title>Yahtzee</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="playerCard">
+                <h1 id="p1">Player 1</h1>
+                <div class="card">
+                    <div class="infoTop">
+                        <p>Part 1</p> <p>Score</p> <p>Game 1</p> <p>Game 2</p> <p>Game 3</p> <p>Game 4</p> <p>Game 5</p> <p>Game 6</p>
+                    </div>
+
+                    <div class="info">
+                        <!--Part1-->
+                        <div><p>Aces <img src="./svg/Dice-1.svg"></p> <p>Total 1's</p></div>
+                        <div><p>Two <img src="./svg/Dice-2.svg"></p> <p>Total 2's</p></div>
+                        <div><p>Three <img src="./svg/Dice-3.svg"></p> <p>Total 3's</p></div>
+                        <div><p>Four <img src="./svg/Dice-4.svg"></p> <p>Total 4's</p></div>
+                        <div><p>Five <img src="./svg/Dice-5.svg"></p> <p>Total 5's</p></div>
+                        <div><p>Six <img src="./svg/Dice-6.svg"></p> <p>Total 6's</p></div>
+                        <div><p>Total Points</p> <p>→</p></div>
+                        <div><p>Extra Bonus</p> <p>35points</p></div>
+                        <div><p>Total Part 1</p> <p>→</p></div>
+
+                        <!--Part 2-->
+                        <div><p>Part 2</p></div>
+                        <div><p>Three of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Four of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Full House</p> <p>25 pt</p></div>
+                        <div><p>Small Street</p> <p>30 pt</p></div>
+                        <div><p>Large Street</p> <p>40 pt</p></div>
+                        <div><p>Yahtzee</p> <p>50 pt</p></div>
+                        <div><p>Chance</p> <p>All Dice</p></div>
+
+                        <!--Score-->
+                        <div><p>Total Part 1</p> <p>→</p></div>
+                        <div><p>Total Part 2</p> <p>→</p></div>
+                        <div><p>Total Score</p> <p>→</p></div>
+                    </div>
+
+                    <div id="score1"></div>
+                </div>
+            </div>
+
+            <div id="dice">
+                <div id="d1"> </div>
+                <div id="d2"> </div>
+                <div id="d3"> </div>
+                <div id="d4"> </div>
+                <div id="d5"> </div>
+
+                <div id="roll" onclick="doStuff()">Roll</div>
+            </div>
+
+            <div class="playerCard">
+                <h1 id="p2">Player 2</h1>
+                <div class="card">
+                    <div class="infoTop">
+                        <p>Part 1</p> <p>Score</p> <p>Game 1</p> <p>Game 2</p> <p>Game 3</p> <p>Game 4</p> <p>Game 5</p> <p>Game 6</p>
+                    </div>
+
+                    <div class="info">
+                        <!--Part1-->
+                        <div><p>Aces <img src="./svg/Dice-1.svg"></p> <p>Total 1's</p></div>
+                        <div><p>Two <img src="./svg/Dice-2.svg"></p> <p>Total 2's</p></div>
+                        <div><p>Three <img src="./svg/Dice-3.svg"></p> <p>Total 3's</p></div>
+                        <div><p>Four <img src="./svg/Dice-4.svg"></p> <p>Total 4's</p></div>
+                        <div><p>Five <img src="./svg/Dice-5.svg"></p> <p>Total 5's</p></div>
+                        <div><p>Six <img src="./svg/Dice-6.svg"></p> <p>Total 6's</p></div>
+                        <div><p>Total Points</p> <p>→</p></div>
+                        <div><p>Extra Bonus</p> <p>35points</p></div>
+                        <div><p>Total Part 1</p> <p>→</p></div>
+
+                        <!--Part 2-->
+                        <div><p>Part 2</p></div>
+                        <div><p>Three of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Four of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Full House</p> <p>25 pt</p></div>
+                        <div><p>Small Street</p> <p>30 pt</p></div>
+                        <div><p>Large Street</p> <p>40 pt</p></div>
+                        <div><p>Yahtzee</p> <p>50 pt</p></div>
+                        <div><p>Chance</p> <p>All Dice</p></div>
+
+                        <!--Score-->
+                        <div><p>Total Part 1</p> <p>→</p></div>
+                        <div><p>Total Part 2</p> <p>→</p></div>
+                        <div><p>Total Score</p> <p>→</p></div>
+                    </div>
+
+                    <div id="score2"></div>
+                </div>
+            </div>
+        </main>
+              
+        <script src="./js/scoreGrid.js"></script>  
+        <script src="./js/checkPlacement.js"></script>      
+        <script src="./js/userInput.js"></script>
+    </body>
+</html>
