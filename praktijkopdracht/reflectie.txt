@@ -1,0 +1,30 @@
+1. Vrijdag:
+    Heb de HTML / CSS opnieuw gemaakt omdat ik de andere lelijk vond
+        Wat ging goed:
+            De HTML / CSS was snel af en ik kon beginnen aan JS aan het eind van de dag
+        Wat ging minder:
+            Heb niet veel JS kunnen maken
+2. Saterdag:
+    Heb de JS gemaakt die ervoor zorgt dat de score block een p element heeft met een uniek id
+        Wat ging goed:
+            Het maken van de JS
+        Wat ging minder: 
+            Motivatie om verder te werken
+3. Zondag:
+    Heb je kunnen laten rollen en plaatsen en het uitrekenen dat het geplaatst kan worden
+        Wat ging goed:
+            Heb veel voorelkaar gekregen
+        Wat ging minder:
+            Kon niet switchen van spelers
+4. Maandag:
+    Je kan nu van spelers switchen en een aantal errors gefixed
+        Wat ging goed:
+            Heb veel gedaan
+        Wat ging minder:
+            Alles
+5. Dinsdag:
+    Heb de rubriek gelezen en je kan nu zien hoevaak je nog kan rollen en je kan het nu spelen op tablet en telefoon
+        Wat ging goed:
+            Heb het afgemaakt
+        Wat ging minder:
+            Niet veel motivatie

@@ -3,7 +3,7 @@ let gameData = {
     finishGame: 0,
     player: 1,
     allDice: [0, 0, 0, 0, 0, 0],
-    valAllDice: function() {
+    valAllDice: () => {
         let valAllDice = 0;
         for (let i = 0; i < 6; i++) {
             valAllDice += this.allDice[i];

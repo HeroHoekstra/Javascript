@@ -1,9 +1,13 @@
 //Dice and roll
 let isLocked = [false, false, false, false, false, false];
-let rollValue = [0, 0, 0, 0, 0, 0]
+let rollValue = [0, 0, 0, 0, 0];
 
-let turnNumber = 0;
+let turnNumber = 1;
 let lockDice = false;
+
+let rollInfo = (i) => {
+    return `Player ${gameData.player}: Roll ${turnNumber - i} / 3`;
+}
 
 doStuff();
 
@@ -37,11 +41,13 @@ function roll() {
                     break;
 
                 default: 
-                    dice.innerHTML = "<p>ah oh</p>"
+                    dice.innerHTML = "<p>ah oh</p>";
                     break;
             }
         }
     }
+
+    document.getElementById('roll').innerText = rollInfo(0);
 }
 
 for (let i = 0; i < 5; i++) {
@@ -145,6 +151,7 @@ function place(player, i) {
             reset();
         }
     }   
+    document.getElementById('roll').innerText = rollInfo(1);
 }
 
 function reset() {

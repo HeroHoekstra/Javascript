@@ -1,0 +1,48 @@
+main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: 
+        "player1 player2"
+        "dice dice";
+    height: 650px;
+}
+
+/*Cards*/
+.player1 {grid-area: player1;}
+.player2 {grid-area: player2;}
+#dice {grid-area: dice;}
+
+.playerCard {
+    scale: 0.9;
+    position: relative;
+    top: -30px;
+}
+.playerCard > h1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*Dice*/
+#dice {
+    scale: 0.9;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: 
+        ". . . . ."
+        "roll roll roll roll roll";
+    column-gap: 10px;
+
+    width: 570px;
+    margin: 0;
+    padding-bottom: 1px;
+
+    position: relative;
+    top: -55px
+}
+
+#roll {
+    grid-area: roll;
+    margin-left: 30px;
+    margin-right: 30px;
+}

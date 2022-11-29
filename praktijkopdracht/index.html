@@ -5,14 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="./style.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <!--Tablet-->
+        <link href="./css/tablet.css" media="screen and (max-width: 970px)" rel="stylesheet">
+        <!--Phone-->
+        <link href="./css/phone.css" media="screen and (max-width: 710px)" rel="stylesheet">
 
         <title>Yahtzee</title>
     </head>
 
     <body>
         <main>
-            <div class="playerCard">
+            <div class="playerCard player1">
                 <h1 id="p1">Player 1</h1>
                 <div class="card">
                     <div class="infoTop">
@@ -61,7 +65,7 @@
                 <div id="roll" onclick="doStuff()">Roll</div>
             </div>
 
-            <div class="playerCard">
+            <div class="playerCard player2">
                 <h1 id="p2">Player 2</h1>
                 <div class="card">
                     <div class="infoTop">

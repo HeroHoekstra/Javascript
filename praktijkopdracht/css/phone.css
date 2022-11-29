@@ -1,0 +1,12 @@
+main {
+    grid-template-rows: 1fr 0.05fr 1fr;
+    grid-template-areas: 
+        "score1" "dice" "score2";
+}
+
+.player1 {grid-area: score1;}
+.player2 {
+    grid-area: score2;
+    top: -90px;
+}
+#dice {grid-area: dice;}
